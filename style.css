@@ -21,7 +21,6 @@ main {
   margin-right: 30px;
   background-color: #eeeeee;
   position: relative;
-  /*なぜここにpositionを指定するのか*/
 }
 
 .main-content:last-child {
@@ -67,12 +66,12 @@ footer {
   background-color: #aaaaaa;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   main {
     width: 100%;
-    display: block;    
+    display: block;
   }
-  
+
   .main-content {
     width: 90%;
     margin: 0 auto 20px auto;
@@ -80,5 +79,5 @@ footer {
 
   .main-content:last-child {
     margin: 0 auto;
-  }   
+  }
 }
